@@ -1,0 +1,22 @@
+{
+    "name": "user-product-api",
+    "version": "1.0.0",
+    "description": "Backend API for user authentication, product management and payment processing",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "stripe": "^13.10.0",
+        "user-product-api": "file:"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

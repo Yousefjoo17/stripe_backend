@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "amount": 199.99,
+    "description": "Premium subscription",
+    "currency": "usd",
+    "paymentIntentId": "pi_example_12345",
+    "status": "succeeded",
+    "createdAt": "2025-03-10T14:30:00.000Z",
+    "paidAt": "2025-03-10T14:35:00.000Z"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "amount": 49.95,
+    "description": "Basic plan purchase",
+    "currency": "usd",
+    "paymentIntentId": "pi_example_67890",
+    "status": "succeeded",
+    "createdAt": "2025-03-15T10:15:00.000Z",
+    "paidAt": "2025-03-15T10:20:00.000Z"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "amount": 299,
+    "description": "Enterprise license",
+    "currency": "usd",
+    "paymentIntentId": "pi_example_24680",
+    "status": "succeeded",
+    "createdAt": "2025-03-20T16:45:00.000Z",
+    "paidAt": "2025-03-20T16:50:00.000Z"
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "amount": 19.99,
+    "description": "Add-on purchase",
+    "currency": "usd",
+    "paymentIntentId": "pi_example_13579",
+    "status": "failed",
+    "createdAt": "2025-03-25T09:10:00.000Z",
+    "failedAt": "2025-03-25T09:15:00.000Z"
+  }
+]

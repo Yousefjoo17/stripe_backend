@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "items": [
+      {
+        "productId": 1,
+        "name": "Smartphone Pro X",
+        "price": 999.99,
+        "quantity": 1,
+        "total": 999.99
+      },
+      {
+        "productId": 7,
+        "name": "Wireless Charging Pad",
+        "price": 29.99,
+        "quantity": 2,
+        "total": 59.98
+      }
+    ],
+    "shipping": {
+      "address": "123 Main St, Anytown, AN 12345",
+      "cost": 10
+    },
+    "total": 1069.97,
+    "paymentIntentId": "pi_example_12345",
+    "status": "paid",
+    "createdAt": "2025-03-10T14:30:00.000Z",
+    "paidAt": "2025-03-10T14:35:00.000Z"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "items": [
+      {
+        "productId": 4,
+        "name": "Smart Fitness Watch",
+        "price": 199.5,
+        "quantity": 1,
+        "total": 199.5
+      }
+    ],
+    "shipping": {
+      "address": "456 Oak Ave, Somewhere, SO 67890",
+      "cost": 5
+    },
+    "total": 204.5,
+    "paymentIntentId": "pi_example_67890",
+    "status": "paid",
+    "createdAt": "2025-03-15T10:15:00.000Z",
+    "paidAt": "2025-03-15T10:20:00.000Z"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "items": [
+      {
+        "productId": 3,
+        "name": "Ultra-Thin Laptop",
+        "price": 1299,
+        "quantity": 1,
+        "total": 1299
+      },
+      {
+        "productId": 2,
+        "name": "Wireless Noise-Cancelling Headphones",
+        "price": 249.95,
+        "quantity": 1,
+        "total": 249.95
+      }
+    ],
+    "shipping": {
+      "address": "789 Pine Blvd, Elsewhere, EL 54321",
+      "cost": 15
+    },
+    "total": 1563.95,
+    "paymentIntentId": "pi_example_24680",
+    "status": "paid",
+    "createdAt": "2025-03-20T16:45:00.000Z",
+    "paidAt": "2025-03-20T16:50:00.000Z"
+  }
+]

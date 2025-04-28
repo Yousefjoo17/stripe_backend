@@ -1,0 +1,54 @@
+// dummy-data/products.js
+const dummyProducts = [
+    {
+      id: 1,
+      name: "Smartphone Pro X",
+      price: 999.99,
+      details: "Latest flagship smartphone with 6.7-inch OLED display, 256GB storage, triple camera system, and all-day battery life.",
+      createdAt: "2025-01-10T08:00:00.000Z"
+    },
+    {
+      id: 2,
+      name: "Wireless Noise-Cancelling Headphones",
+      price: 249.95,
+      details: "Premium over-ear headphones with active noise cancellation, 30-hour battery life, and comfortable memory foam ear cushions.",
+      createdAt: "2025-01-15T10:30:00.000Z"
+    },
+    {
+      id: 3,
+      name: "Ultra-Thin Laptop",
+      price: 1299.00,
+      details: "Powerful laptop with 14-inch 4K display, 16GB RAM, 1TB SSD, and dedicated graphics card in a slim and lightweight design.",
+      createdAt: "2025-02-01T15:45:00.000Z"
+    },
+    {
+      id: 4,
+      name: "Smart Fitness Watch",
+      price: 199.50,
+      details: "Water-resistant fitness tracker with heart rate monitoring, GPS, sleep tracking, and 7-day battery life.",
+      createdAt: "2025-02-10T11:20:00.000Z"
+    },
+    {
+      id: 5,
+      name: "Portable Bluetooth Speaker",
+      price: 79.99,
+      details: "Compact waterproof speaker with 360° sound, 12-hour playback, and durable design for outdoor adventures.",
+      createdAt: "2025-03-05T14:10:00.000Z"
+    },
+    {
+      id: 6,
+      name: "Electric Coffee Grinder",
+      price: 49.95,
+      details: "Stainless steel coffee grinder with adjustable coarseness settings, large capacity, and low noise operation.",
+      createdAt: "2025-03-12T09:15:00.000Z"
+    },
+    {
+      id: 7,
+      name: "Wireless Charging Pad",
+      price: 29.99,
+      details: "Fast-charging Qi-compatible wireless charger with sleek design and LED charging indicator.",
+      createdAt: "2025-03-20T16:30:00.000Z"
+    }
+  ];
+  
+  module.exports = dummyProducts;
